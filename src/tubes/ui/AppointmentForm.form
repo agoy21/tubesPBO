@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="125" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblAppointmentID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTimeStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTimeEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDoctorID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPatientID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRoomID5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtTimeStart" max="32767" attributes="0"/>
+                          <Component id="txtTimeEnd" max="32767" attributes="0"/>
+                          <Component id="txtDoctorID" max="32767" attributes="0"/>
+                          <Component id="txtPatientID" max="32767" attributes="0"/>
+                          <Component id="txtRoomID" pref="212" max="32767" attributes="0"/>
+                          <Component id="txtAppointmentID" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnScheduleAppointment" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblAppointmentID" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAppointmentID" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblTimeStart" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTimeStart" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblTimeEnd" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTimeEnd" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblRoomID5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtRoomID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnScheduleAppointment" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblAppointmentID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Appointment ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTimeStart">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time Start"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTimeStart">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTimeEnd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time End"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTimeEnd">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDoctorID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDoctorID">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPatientID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPatientID">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRoomID5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Room ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRoomID">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Appoinment Form"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAppointmentID">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnScheduleAppointment">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back To Main Page"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
